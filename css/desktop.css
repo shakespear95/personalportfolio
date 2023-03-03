@@ -17,6 +17,21 @@ nav {
         
     }
 
+    .part2 {
+        display: flex;
+    }
+
+    .myskills {
+        
+        margin-top: 4em
+    }
+
+    .myskills >
+
+    .skillestdiv {
+        
+    }
+
     h1 {
         font-family: 'Poppins';
         font-size: larger;
