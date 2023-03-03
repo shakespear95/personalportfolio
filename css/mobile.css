@@ -5,5 +5,65 @@
         color: aliceblue;
     }  
 
-    
+   .responsive {
+    width: 70%;
+    height: auto;
+    margin: -19px 0px 0px 61px
+   } 
+
+   .firstpart{
+
+   }
+
+   h1 {
+    font-family: 'Poppins';
+    font-size: larger;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Arimo';
+    font-size: small;
+    font-weight: 100;
+}
+
+.text1 {
+    text-align: center;
+    position: relative;
+    height: 6px;
+}
+
+.text1 > p {
+    width: 75%;
+    margin: auto;
+    z-index: 10;
+}
+
+.myskill {
+    font-family: 'Poppins';
+    font-size: large;
+    font-weight: 700;
+    font-style: italic;
+    color: aqua;
+    text-align: center;
+}
+
+.part2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.theskill {
+    font-weight: bold;
+    width: 85%;
+    text-align: center;
+    margin: 0em 0em 0em 2em;
+}
 }

@@ -6,11 +6,13 @@ nav {
     margin-top: 3em;
 }
 
+
 @media screen and (min-width : 768px){
     body {
         background-color: black;
-        width: 80%;
+        width: 70%;
         margin: auto;
+        max-width: 1400px;
     }  
     .firstpart {
         display: flex;
@@ -23,13 +25,28 @@ nav {
 
     .myskills {
         
-        margin-top: 4em
+        margin-top: 2em
     }
 
-    .myskills >
+    .skillestdiv{
+        width: fit-content;
+    }
 
-    .skillestdiv {
-        
+    .myskill {
+        font-family: 'Poppins';
+        font-size: x-large;
+        font-weight: 600;
+        color: aqua;
+    }
+
+    .theskill {
+        width: 90%;
+    }
+
+   
+
+    .text1 {
+        margin-top: 4em
     }
 
     h1 {
@@ -37,21 +54,17 @@ nav {
         font-size: larger;
         font-weight: 500;
     }
-
+    
     h2 {
         font-family: 'Poppins';
         font-size: xxx-large;
         font-weight: 900;
     }
-
+    
     p{
         font-family: 'Poppins';
-        font-size: small;
-        font-weight: 100;
-    }
-
-    .text1 {
-        margin-top: 4em
+        font-size: large;
+        font-weight: 500;
     }
 }
 
