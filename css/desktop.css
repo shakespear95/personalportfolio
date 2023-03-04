@@ -13,17 +13,6 @@ nav {
 }
 
 
-.banner> .imgbox  img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: 0.5s;
-    background-position: center;
-}
 
 .banner> .imgbox  img.active {
     opacity: 1;
@@ -135,6 +124,18 @@ nav {
         align-items: center;
         cursor: pointer;
     
+    }
+
+    .banner> .imgbox  img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        transition: 0.5s;
+        background-position: center;
     }
 }
 
