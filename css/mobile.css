@@ -66,4 +66,32 @@ p{
     text-align: center;
     margin: 0em 0em 0em 2em;
 }
+
+.imgbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 101%;
+    height: 50%;
+}
+.controls {
+    top: 50%;
+    transform: translate(-50%);
+    right: 0;
+    width: 8px;
+    padding: 23em 0em 0em 44em;
+}
+
+.controls li {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
 }
