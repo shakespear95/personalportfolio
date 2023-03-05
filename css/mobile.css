@@ -67,7 +67,7 @@ p{
     margin: 0em 0em 0em 2em;
 }
 
-.imgbox {
+.imgbox  {
     position: absolute;
     top: 0;
     left: 0;
@@ -78,7 +78,7 @@ p{
     top: 50%;
     transform: translate(-50%);
     right: 0;
-    width: 8px;
+    width: 100%;
     padding: 23em 0em 0em 44em;
 }
 
@@ -91,6 +91,7 @@ p{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin: 0% 0% 0% 86%;
 
 }
 

@@ -6,20 +6,20 @@ nav {
     margin-top: 3em;
 }
 
-.banner {
+.banner ,.past{
     position: relative;
     width: 100%;
     min-height: 100vh;
+    margin-top: 5em;
 }
 
 
-
-.banner> .imgbox  img.active {
+.banner> .imgbox  img.active, .past >.schoolbox > .eduinfor.active {
     opacity: 1;
 }
 
 .controls li:hover {
-    background: #ffeb3b;
+    background: #8f4a12;
 }
 
 .controls li:before{
@@ -72,7 +72,6 @@ nav {
         width: 90%;
     }
 
-   
 
     .text1 {
         margin-top: 4em
@@ -96,12 +95,14 @@ nav {
         font-weight: 500;
     }
 
-    .banner> .imgbox {
+    .banner> .imgbox,
+    .past> .schoolbox {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+        margin-top: 6em;
     
     }
 
@@ -126,7 +127,7 @@ nav {
     
     }
 
-    .banner> .imgbox  img {
+    .banner> .imgbox  img, .past > .schoolbox > .eduinfor {
         position: absolute;
         top: 0;
         left: 0;
@@ -137,5 +138,75 @@ nav {
         transition: 0.5s;
         background-position: center;
     }
+
+    .recent {
+    text-align: center;
+    font-size: xxx-large;
+    font-family: 'Circular-Loom';
+    color: chocolate;
+    }
+
+
+    .workexp {
+        margin-top: 10em;
+    }
+
+    .card {
+        display: flex;
+        margin-bottom: 3em;
+        border: 1px solid brown;
+        border-radius: 44px;
+   }
+   .img img {
+    width: 88%;
+    margin: 3% 0% 3% -4%;
+    padding: 0% 0% 0% 10%;
+   }
+
+   .text {
+    width: 45%;
+    padding-left: 3em;
+    text-align: center;
+  }
+
+  .eduinfor {
+    display: flex;
+  }
+
+  .eduimage img {
+    width: 110%;
+    margin: -18% 2% 0% -5%;
+    height: 50%;
+  }
+
+  .qualification {
+    width: 86%;
+    position: relative;
+  }
+
+  .past >.controls {
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%);
+    right: 0;
+    width: 80px;
+    margin: -14% -14% 3% 3%;
 }
+
+  .past>.controls li {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    
+}
+}
+
+
 
